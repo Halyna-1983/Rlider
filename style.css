@@ -25,6 +25,7 @@ h6 {
 
 /* BACKGROUNG-IMAGE  */
 .hero {
+  position: relative;
   max-width: 2050px;
   height: 820px;
   margin-top: 0;
@@ -662,14 +663,15 @@ li .site-nav-item::after {
 }
 
 /* FOOTER  */
-footer {
+.foot {
+  position: relative;
   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 50px;
   background-color: #5b6277;
 
-  max-width: 2050px;
+  /* max-width: 2050px; */
   height: 170px;
   vertical-align: bottom;
 }
@@ -688,20 +690,23 @@ footer {
 }
 
 .logo-block {
+  width: 100%;
   font-weight: 400;
   font-size: 14px;
   color: #fff;
 
+  white-space: nowrap;
   margin-right: 160px;
   width: 335px;
 }
 
 .mobile-block {
-  margin-right: 96px;
+  width: 100%;
+  margin-right: 36px;
 }
 
 .adress-block {
-  margin-right: 36px;
+  width: 100%;
 }
 
 .mobile {
@@ -738,8 +743,8 @@ footer {
 .modal {
   position: absolute;
 
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 40%;
 
   background-color: #fff;
 }
@@ -750,7 +755,7 @@ footer {
 
   width: 530px;
   height: 580px;
-  outline: 1px solid violet;
+  outline: 1px solid;
 }
 
 .form-title-modal {
@@ -772,6 +777,7 @@ footer {
 .form-field {
   position: relative;
   display: flexbox;
+
   margin-bottom: 10px;
 }
 
@@ -864,7 +870,7 @@ footer {
 }
 
 .agreement-policy {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
